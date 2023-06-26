@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Premium Calculator</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-vector/clean-medical-background_53876-97927.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333333;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #a9e1e9;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .input-field {
+            margin-bottom: 10px;
+        }
+        .input-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .submit-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/C4D0BAQEcIbf7808vYA/company-logo_200_200/0/1653479282171?e=2147483647&v=beta&t=y4MyEpEbjCrMI4LTwtzkc7qSW7qTiizkj1-JDOg6Z9U" alt="Logo" class="logo">
+        
+        <h1>Insurance Premium Calculator</h1>
+         <center> 
+        <form action="/calculate_premium" method="POST">
+            <div class="input-field">
+                <label for="age" class="input-label">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="input-field">
+                <label for="sum_insured" class="input-label">Sum Insured:</label>
+                <select id="sum_insured" name="sum_insured" required>
+                    <option value="300000">300,000</option>
+                    <option value="400000">400,000</option>
+                    <option value="500000">500,000</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="city_tier" class="input-label">City Tier:</label>
+                <select id="city_tier" name="city_tier" required>
+                    <option value="tier-1">Tier 1</option>
+                    <option value="tier-2">Tier 2</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="tenure" class="input-label">Tenure:</label>
+                <select id="tenure" name="tenure" required>
+                    <option value="1">1 Year</option>
+                    <option value="2">2 Years</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-button">Calculate Premium</button>
+        </form>
+    </div>
+</body>
+</html>
