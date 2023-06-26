@@ -27,11 +27,11 @@ Attractive Interface: The user interface is designed to be visually appealing an
 
 <h1>Instructions to Run the Project:</h1>
 python app.py In Terminal
-1 Install Python: Make sure Python is installed on your system. You can download and install Python from the official Python website (https://www.python.org).
-2 Install Flask: Open a terminal/command prompt and run the following command to install Flask: pip install Flask.
-3 Install MongoDB: If you don't have MongoDB installed, download and install it from the official MongoDB website (https://www.mongodb.com).
-4 Clone the Repository: Clone the project repository from the provided GitHub link.
-5 Set Up the Database: Import the rate card data from the CSV file into MongoDB. Refer to the project documentation for detailed instructions.
-6 Set Up the Environment: Create a virtual environment for the project and activate it. Install the required Python packages listed in the requirements.txt file.
-7 Run the Application: In the terminal, navigate to the project directory and run the command python app.py. This will start the Flask server.
-8 Access the Application: Open a web browser and go to http://localhost:5000 to access the Insurance Premium Calculator.
+1 Install Python: Make sure Python is installed on your system. You can download and install Python from the official Python website (https://www.python.org).<br>
+2 Install Flask: Open a terminal/command prompt and run the following command to install Flask: pip install Flask.<br>
+3 Install MongoDB: If you don't have MongoDB installed, download and install it from the official MongoDB website (https://www.mongodb.com).<br>
+4 Clone the Repository: Clone the project repository from the provided GitHub link.<br>
+5 Set Up the Database: Import the rate card data from the CSV file into MongoDB. Refer to the project documentation for detailed instructions.<br>
+6 Set Up the Environment: Create a virtual environment for the project and activate it. Install the required Python packages listed in the requirements.txt file.<br>
+7 Run the Application: In the terminal, navigate to the project directory and run the command python app.py. This will start the Flask server.<br>
+8 Access the Application: Open a web browser and go to http://localhost:5000 to access the Insurance Premium Calculator.<br>
